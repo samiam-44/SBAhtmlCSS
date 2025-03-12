@@ -1,11 +1,20 @@
 /* .navbar container */
 html {
-    background-image: linear-gradient(to right, #f2f6f6, #e5eced, #d7e3e3, #cad9da, #bdd0d1);
+    background-image: linear-gradient(to right,#b3e3fd, #f2f6f6, #e5eced, #d7e3e3, #cad9da, #bdd0d1);
 
 
 }
 #homelogo {
 padding: 3px;
+}
+#fansite {
+    margin: 0;
+    float: left;
+    display: flex;
+    margin-top: 16px;
+    color: #b3e3fd;
+    font-family: "Montserrat", sans-serif;
+    text-shadow: 2px 2px 5px #ffff;
 }
 
 .navbar {
@@ -16,15 +25,18 @@ padding: 3px;
     font-weight: 400;
     font-style: inherit;
     text-align: center;
+    text-shadow: 2px 2px 5px #ffff;
+    box-shadow: 1px 3px 45px 15px #20335f;
 }
 /* Links inside .navbar */
 .navbar a {
     float: left;
     font-size: 16px;
-    color: #bdd0d1;
+    color: #7d8a8a;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    text-shadow: 2px 2px 5px #ffff;
 }
 /* search box style */
 .navbar input[type=text]{
@@ -37,6 +49,7 @@ margin-right: 16px;
 font-size: 17px;
 font-family: "montserrat", sans-serif;
 width: 300px;
+text-shadow: 2px 2px 5px #ffff;
 }
 
 /* The dropdown container */
@@ -48,6 +61,7 @@ width: 300px;
 #login {
 float: right;
 padding-bottom: 17px;
+box-shadow: 5px 5px 10px 15px #ffff;
 }
 
 /* dropdown button */
@@ -60,6 +74,7 @@ padding-bottom: 17px;
     background-color: inherit;
     font-family: "Montserrat", sans-serif;
     margin-right: 35px;
+    text-shadow: 2px 2px 5px #ffff;
 }
 
 /* navbar hovers */
@@ -74,7 +89,7 @@ padding-bottom: 17px;
     position: absolute;
     background-color: #b3e3fd;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(28, 36, 105, 0.833);
     z-index: 1;
 }
 
@@ -86,6 +101,8 @@ padding-bottom: 17px;
     text-decoration: none;
     display: block;
     text-align: left;
+    text-shadow: 2px 2px 5px #ffff;
+
 }
 
 /* add blue on drop links */
@@ -96,4 +113,104 @@ padding-bottom: 17px;
 /* show drop down */
 .dropdown:hover .dropdown-content {
     display: block;
+}
+/* quote */
+#h31{
+    font-family: "Montserrat", sans-serif;
+    font-size: medium;
+font-weight: 600;
+color: #b3e3fd;
+text-shadow: 2px 2px 2px #20335f;
+text-align: center;
+padding-top: 3em;
+}
+/* section1 begins */
+.section1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+/* kara link */
+#box1 a {
+text-align: center;
+font-family: "montserrat", sans-serif;
+color: #20335f;
+object-fit: cover;
+text-shadow: 2px 2px 5px #ffff;
+transition: transform 0.2s ease;
+text-decoration-color: #ffff;
+
+}
+#box1 img {
+     border-bottom-right-radius: 20px;
+     border-bottom-left-radius: 15px;
+     border-bottom-style: solid;
+}
+#box1 h2 {
+    margin: 0;
+}
+#box1:hover img {
+    transform: scale(1.2);}
+/* Connor Link */
+#box2 a {
+text-align: center;
+font-family: "montserrat", sans-serif;
+color: #20335f;
+object-fit: cover;
+text-shadow: 2px 2px 5px #ffff;
+transition: width .2s, height .2s;
+text-decoration-color: #ffff;
+}
+#box2 img {
+   border-bottom-right-radius: 40px;
+   border-bottom-left-radius: 45px;
+   border-bottom-style: solid;
+}
+#box2 h2 {
+    margin: 0;
+}
+#box2:hover img {
+    transform: scale(1.2);}
+/* Markus Link */
+#box3 a {
+   text-align: center;
+font-family: "montserrat", sans-serif;
+color: #20335f;
+object-fit: cover;
+text-shadow: 2px 2px 5px #ffff;
+transition: transform 0.2s ease;
+text-decoration-color: #ffff;
+
+}
+#box3 img {
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 35px;
+    border-bottom-style: solid;
+}
+#box3 h2 {
+    margin: 0;
+
+
+}
+#box3:hover img {
+    transform: scale(1.2);
+}
+/* HR LINE */
+hr{
+    width: 50%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #f2f6f6;
+    border-radius: 25px;
+    box-shadow: 5px 5px 25px 25px #20335f;
+transition: color #20335f ease;
+    
+}
+.hrline:hover{
+    transition: #b3e3fd;
 }
