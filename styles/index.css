@@ -1,0 +1,99 @@
+/* .navbar container */
+html {
+    background-image: linear-gradient(to right, #f2f6f6, #e5eced, #d7e3e3, #cad9da, #bdd0d1);
+
+
+}
+#homelogo {
+padding: 3px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #f2f6f6;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: inherit;
+    text-align: center;
+}
+/* Links inside .navbar */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: #bdd0d1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* search box style */
+.navbar input[type=text]{
+float: center;
+padding: 6px;
+border: none;
+outline-color: #20335f;
+margin-top: 8px;
+margin-right: 16px;
+font-size: 17px;
+font-family: "montserrat", sans-serif;
+width: 300px;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+/* Login moved to the right */
+#login {
+float: right;
+padding-bottom: 17px;
+}
+
+/* dropdown button */
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: #bdd0d1;
+    padding: 13px 16px;
+    background-color: inherit;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 35px;
+}
+
+/* navbar hovers */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #20335f;
+}
+
+/* dropdown hidden */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #b3e3fd;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* links inside dropdown */
+.dropdown-content a {
+    float: none;
+    color: #558ec7;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* add blue on drop links */
+.dropdown-content a:hover {
+    background-color: #20335f;
+}
+
+/* show drop down */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
