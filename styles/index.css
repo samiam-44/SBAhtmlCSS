@@ -1,13 +1,18 @@
 /* .navbar container */
 html {
-    background-image: linear-gradient(to right,#b3e3fd, #f2f6f6, #e5eced, #d7e3e3, #cad9da, #bdd0d1);
+    /* background-image: linear-gradient(to right,#b3e3fd, #f2f6f6, #e5eced, #d7e3e3, #cad9da, #bdd0d1);
+ */
+ background-image: url(../images/cybertechgif.gif);
+ background-repeat: no-repeat;
+ background-size: cover;
 
+ backface-visibility: visible;
 
 }
 /* body img {
 background-image: url(detroitcity.jpg); */
 #homelogo {
-padding: 3px;
+padding: 0px;
 }
 #fansite {
     margin: 0;
@@ -21,7 +26,7 @@ padding: 3px;
 
 .navbar {
     overflow: hidden;
-    background-color: #f2f6f6;
+    background-color: none;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -29,16 +34,18 @@ padding: 3px;
     text-align: center;
     text-shadow: 2px 2px 5px #ffff;
     box-shadow: 1px 3px 45px 15px #20335f;
+    min-height: fit-content;
 }
 /* Links inside .navbar */
 .navbar a {
     float: left;
     font-size: 16px;
-    color: #7d8a8a;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    text-shadow: 2px 2px 5px #ffff;
+    
+    
 }
 
 /* search box style */
@@ -52,7 +59,7 @@ margin-right: 16px;
 font-size: 17px;
 font-family: "montserrat", sans-serif;
 width: 300px;
-text-shadow: 2px 2px 5px #ffff;
+text-shadow: 2px 2px 2px #ffff;
 }
 
 /* The dropdown container */
@@ -64,8 +71,9 @@ text-shadow: 2px 2px 5px #ffff;
 /* Login moved to the right */
 #login {
 float: right;
-padding-bottom: 17px;
-box-shadow: 5px 5px 10px 15px #ffff;
+padding-bottom: 14px;
+
+
 }
 
 
@@ -74,12 +82,13 @@ box-shadow: 5px 5px 10px 15px #ffff;
     font-size: 17px;
     border: none;
     outline: none;
-    color: #bdd0d1;
+    color: white;
     padding: 13px 16px;
     background-color: inherit;
     font-family: "Montserrat", sans-serif;
     margin-right: 35px;
     text-shadow: 2px 2px 5px #ffff;
+
 }
 
 /* navbar hovers */
@@ -92,7 +101,7 @@ box-shadow: 5px 5px 10px 15px #ffff;
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #b3e3fd;
+    background-color: #ce4904;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(28, 36, 105, 0.833);
     z-index: 1;
@@ -101,7 +110,7 @@ box-shadow: 5px 5px 10px 15px #ffff;
 /* links inside dropdown */
 .dropdown-content a {
     float: none;
-    color: #558ec7;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -120,12 +129,31 @@ box-shadow: 5px 5px 10px 15px #ffff;
 /* quote */
 #h31{
     font-family: "Montserrat", sans-serif;
-    font-size: medium;
-font-weight: 600;
+    font-size: 18px;
+font-weight: 300;
+color: white;
+text-shadow: 2px 2px 2px #20335f;
+text-align: right;
+padding-top: 1.5em;
+}
+#h32{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+font-weight: 300;
 color: #b3e3fd;
 text-shadow: 2px 2px 2px #20335f;
 text-align: center;
-padding-top: 3em;
+padding-top: 1.5em;
+
+}
+#h33{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+font-weight: 300;
+color: #ce4904;
+text-shadow: 2px 2px 2px #20335f;
+text-align: left;
+padding-bottom: 0;
 }
 /* section1 begins */
 .section1 {
