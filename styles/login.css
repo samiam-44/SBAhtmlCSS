@@ -1,0 +1,114 @@
+/* #bf8799	(191,135,153)PINK
+#382b3d	(56,43,61)DARK PURPLE
+#20335f	(32,51,95)DARK BLUE
+#558ec7	(85,142,199)MEDIUM BLUE
+#b3e3fd	(179,227,253)LIGHT BLUE */
+html {
+    background-image: url(../images/loginpicture.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    backface-visibility: visible;
+}
+
+#homelogo {
+    padding: 5px;
+}
+#homelogo:hover {
+    background-color: #20335f;
+}
+
+#fansite {
+    margin: 0;
+    float: left;
+    display: flex;
+    margin-top: 16px;
+    color: #b3e3fd;
+    font-family: "Montserrat", sans-serif;
+    text-shadow: 2px 2px 5px #ffff;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: inherit;
+    text-align: center;
+    text-shadow: 2px 2px 5px #ffff;
+    box-shadow: 1px 3px 45px 15px #20335f;
+    width: 100%;
+    min-height: fit-content;
+}
+
+/* Links inside .navbar */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px #ffff;
+
+}
+
+/* signin/register */
+div {
+    
+   margin: auto;
+    width: 50%;
+    text-align: center;
+    background: none;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    font-family: "montserrat", sans-serif;
+    font: 600;
+}
+
+
+
+#register {
+  padding: 3px;
+    color: #bf8799;
+    font-family: "montserrat", sans-serif;
+    font: 600;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    text-shadow: 2px 2px 3px 4px white;
+    
+
+
+}
+#register:hover {
+ background-color: #ffff;
+}
+
+h2 {
+    color: #b3e3fd;
+    font-weight: 500;
+   
+}
+
+input {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 45%;
+    padding: 1%;
+    text-align: center;
+    font-family: "montserrat", sans-serif;
+    font: 600;
+    border: 0;
+    color: #bf8799;
+}
+
+#submit{
+    width: 35%;
+}
+#submit:hover {
+    background-color: #20335f;
+}
