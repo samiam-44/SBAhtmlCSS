@@ -4,6 +4,8 @@ html {
 
 
 }
+/* body img {
+background-image: url(detroitcity.jpg); */
 #homelogo {
 padding: 3px;
 }
@@ -38,6 +40,7 @@ padding: 3px;
     text-decoration: none;
     text-shadow: 2px 2px 5px #ffff;
 }
+
 /* search box style */
 .navbar input[type=text]{
 float: center;
@@ -57,12 +60,14 @@ text-shadow: 2px 2px 5px #ffff;
     float: right;
     overflow: hidden;
 }
+
 /* Login moved to the right */
 #login {
 float: right;
 padding-bottom: 17px;
 box-shadow: 5px 5px 10px 15px #ffff;
 }
+
 
 /* dropdown button */
 .dropdown .dropbtn {
@@ -102,9 +107,7 @@ box-shadow: 5px 5px 10px 15px #ffff;
     display: block;
     text-align: left;
     text-shadow: 2px 2px 5px #ffff;
-
 }
-
 /* add blue on drop links */
 .dropdown-content a:hover {
     background-color: #20335f;
